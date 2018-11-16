@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: MyQarage\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-14 12:05+0000\n"
-"PO-Revision-Date: 2018-11-14 14:13+0100\n"
-"Last-Translator: geekvine\n"
+"PO-Revision-Date: 2018-11-16 23:03+0000\n"
+"Last-Translator: advocatux <advocatux@airpost.net>\n"
 "Language-Team: UBports Spanish Team\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -99,7 +99,7 @@ msgstr "Acerca de MyQarage v1.1"
 
 #: ../qml/AboutPage.qml:9
 msgid "MyQarage is an app to control your garage door if you are using a Chamberlain MyQ or compatible system on Ubuntu Touch."
-msgstr "MyQarage es una aplicacion para controlar tu puerta de garage si esta usando Chamberlain MyQ en Ubuntu Touch."
+msgstr "MyQarage es una aplicación para controlar la puerta de su garaje, si está usando «Chamberlain MyQ», en Ubuntu Touch."
 
 #: ../qml/AboutPage.qml:13
 msgid ""
@@ -111,7 +111,7 @@ msgstr ""
 
 #: ../qml/AboutPage.qml:18
 msgid "This app is not affiliated with Chamberlain"
-msgstr "Esta aplicacion no esta afiliada con Chamberlain"
+msgstr "Esta aplicación no está afiliada a Chamberlain"
 
 #: ../qml/AboutPage.qml:22
 msgid "OK"
