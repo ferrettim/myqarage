@@ -1,0 +1,15 @@
+{
+    "name": "myqarage.myq",
+    "description": "MyQarage is an app to control your garage door if you are using a Chamberlin MyQ or compatible system on Ubuntu Touch.",
+    "architecture": "armhf",
+    "title": "MyQarage",
+    "hooks": {
+        "tweet": {
+            "apparmor": "myqarage.apparmor",
+            "desktop":  "myqarage.desktop"
+        }
+    },
+    "version": "1.0",
+    "maintainer": "Martin Ferretti <ferrettimartin@gmail.com>",
+    "framework" : "ubuntu-sdk-16.04"
+}

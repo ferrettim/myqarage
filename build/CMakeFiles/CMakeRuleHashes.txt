@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+0c5c401bfa0bda89650642feb082589b CMakeFiles/myqarage.desktop
+0ac64e239e0cfffef1763e66e1c92ad8 po/CMakeFiles/myqarage.myq.pot
+d1f17062decbf4d3027e1348e07789e2 po/CMakeFiles/pofiles_1
+b2ef1553c2051e8033404e5dc8bf8f62 po/es.gmo
