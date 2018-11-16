@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/martin/Downloads/myqarage-master
+CMAKE_SOURCE_DIR = /media/martin/Media/Documents/UbuntuTouch/myqarage-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/martin/Downloads/myqarage-master/build
+CMAKE_BINARY_DIR = /media/martin/Media/Documents/UbuntuTouch/myqarage-master/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,9 +124,9 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/martin/Downloads/myqarage-master/build/CMakeFiles /home/martin/Downloads/myqarage-master/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/martin/Media/Documents/UbuntuTouch/myqarage-master/build/CMakeFiles /media/martin/Media/Documents/UbuntuTouch/myqarage-master/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/martin/Downloads/myqarage-master/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/martin/Media/Documents/UbuntuTouch/myqarage-master/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

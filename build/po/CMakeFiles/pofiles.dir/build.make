@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/martin/Downloads/myqarage-master
+CMAKE_SOURCE_DIR = /media/martin/Media/Documents/UbuntuTouch/myqarage-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/martin/Downloads/myqarage-master/build
+CMAKE_BINARY_DIR = /media/martin/Media/Documents/UbuntuTouch/myqarage-master/build
 
 # Utility rule file for pofiles.
 
@@ -63,10 +63,10 @@ po/CMakeFiles/pofiles.dir/build: pofiles
 .PHONY : po/CMakeFiles/pofiles.dir/build
 
 po/CMakeFiles/pofiles.dir/clean:
-	cd /home/martin/Downloads/myqarage-master/build/po && $(CMAKE_COMMAND) -P CMakeFiles/pofiles.dir/cmake_clean.cmake
+	cd /media/martin/Media/Documents/UbuntuTouch/myqarage-master/build/po && $(CMAKE_COMMAND) -P CMakeFiles/pofiles.dir/cmake_clean.cmake
 .PHONY : po/CMakeFiles/pofiles.dir/clean
 
 po/CMakeFiles/pofiles.dir/depend:
-	cd /home/martin/Downloads/myqarage-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/martin/Downloads/myqarage-master /home/martin/Downloads/myqarage-master/po /home/martin/Downloads/myqarage-master/build /home/martin/Downloads/myqarage-master/build/po /home/martin/Downloads/myqarage-master/build/po/CMakeFiles/pofiles.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/martin/Media/Documents/UbuntuTouch/myqarage-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/martin/Media/Documents/UbuntuTouch/myqarage-master /media/martin/Media/Documents/UbuntuTouch/myqarage-master/po /media/martin/Media/Documents/UbuntuTouch/myqarage-master/build /media/martin/Media/Documents/UbuntuTouch/myqarage-master/build/po /media/martin/Media/Documents/UbuntuTouch/myqarage-master/build/po/CMakeFiles/pofiles.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : po/CMakeFiles/pofiles.dir/depend
 

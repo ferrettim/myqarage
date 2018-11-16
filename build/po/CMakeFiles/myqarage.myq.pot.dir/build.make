@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/martin/Downloads/myqarage-master
+CMAKE_SOURCE_DIR = /media/martin/Media/Documents/UbuntuTouch/myqarage-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/martin/Downloads/myqarage-master/build
+CMAKE_BINARY_DIR = /media/martin/Media/Documents/UbuntuTouch/myqarage-master/build
 
 # Utility rule file for myqarage.myq.pot.
 
@@ -54,10 +54,10 @@ CMAKE_BINARY_DIR = /home/martin/Downloads/myqarage-master/build
 include po/CMakeFiles/myqarage.myq.pot.dir/progress.make
 
 po/CMakeFiles/myqarage.myq.pot:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/martin/Downloads/myqarage-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating translation template"
-	cd /home/martin/Downloads/myqarage-master/build/po && /usr/bin/intltool-extract --update --type=gettext/ini --srcdir=/home/martin/Downloads/myqarage-master myqarage.desktop.in
-	cd /home/martin/Downloads/myqarage-master/build/po && /usr/bin/xgettext -o myqarage.myq.pot -D /home/martin/Downloads/myqarage-master/po -D /home/martin/Downloads/myqarage-master/build/po --from-code=UTF-8 --c++ --qt --language=javascript --add-comments=TRANSLATORS --keyword=tr --keyword=tr:1,2 --keyword=N_ --keyword=_ --package-name='MyQarage' --copyright-holder='Rudi Timmermans' ../qml/SadPage.qml ../qml/AboutPage.qml ../qml/actions/Copy.qml ../qml/actions/CopyLink.qml ../qml/actions/CopyImage.qml ../qml/actions/ShareLink.qml ../qml/actions/SaveImage.qml ../qml/MediaAccessDialog.qml ../qml/Downloader.qml ../qml/WebProcessMonitor.qml ../qml/PopupWindowOverlay.qml ../qml/PickerDialog.qml ../qml/Main.qml ../qml/ContentPickerDialog.qml ../qml/ContentDownloadDialog.qml ../qml/PopupWindowController.qml ../qml/components/BottomMenu.qml ../qml/ContentHandler.qml ../qml/OpenDialog.qml ../qml/js/myqarage-no-omniprompt.js ../qml/FileExtensionMapper.js ../qml/MimeTypeMapper.js myqarage.desktop.in.h
-	cd /home/martin/Downloads/myqarage-master/build/po && /usr/bin/cmake -E copy myqarage.myq.pot /home/martin/Downloads/myqarage-master/po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/media/martin/Media/Documents/UbuntuTouch/myqarage-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating translation template"
+	cd /media/martin/Media/Documents/UbuntuTouch/myqarage-master/build/po && /usr/bin/intltool-extract --update --type=gettext/ini --srcdir=/media/martin/Media/Documents/UbuntuTouch/myqarage-master myqarage.desktop.in
+	cd /media/martin/Media/Documents/UbuntuTouch/myqarage-master/build/po && /usr/bin/xgettext -o myqarage.myq.pot -D /media/martin/Media/Documents/UbuntuTouch/myqarage-master/po -D /media/martin/Media/Documents/UbuntuTouch/myqarage-master/build/po --from-code=UTF-8 --c++ --qt --language=javascript --add-comments=TRANSLATORS --keyword=tr --keyword=tr:1,2 --keyword=N_ --keyword=_ --package-name='MyQarage' --copyright-holder='Rudi Timmermans' ../qml/AboutPage.qml ../qml/actions/Copy.qml ../qml/actions/CopyImage.qml ../qml/actions/CopyLink.qml ../qml/actions/SaveImage.qml ../qml/actions/ShareLink.qml ../qml/components/BottomMenu.qml ../qml/ContentDownloadDialog.qml ../qml/ContentHandler.qml ../qml/ContentPickerDialog.qml ../qml/Downloader.qml ../qml/Main.qml ../qml/MediaAccessDialog.qml ../qml/OpenDialog.qml ../qml/PickerDialog.qml ../qml/PopupWindowController.qml ../qml/PopupWindowOverlay.qml ../qml/SadPage.qml ../qml/WebProcessMonitor.qml ../qml/FileExtensionMapper.js ../qml/js/myqarage-no-omniprompt.js ../qml/MimeTypeMapper.js myqarage.desktop.in.h
+	cd /media/martin/Media/Documents/UbuntuTouch/myqarage-master/build/po && /usr/bin/cmake -E copy myqarage.myq.pot /media/martin/Media/Documents/UbuntuTouch/myqarage-master/po
 
 myqarage.myq.pot: po/CMakeFiles/myqarage.myq.pot
 myqarage.myq.pot: po/CMakeFiles/myqarage.myq.pot.dir/build.make
@@ -70,10 +70,10 @@ po/CMakeFiles/myqarage.myq.pot.dir/build: myqarage.myq.pot
 .PHONY : po/CMakeFiles/myqarage.myq.pot.dir/build
 
 po/CMakeFiles/myqarage.myq.pot.dir/clean:
-	cd /home/martin/Downloads/myqarage-master/build/po && $(CMAKE_COMMAND) -P CMakeFiles/myqarage.myq.pot.dir/cmake_clean.cmake
+	cd /media/martin/Media/Documents/UbuntuTouch/myqarage-master/build/po && $(CMAKE_COMMAND) -P CMakeFiles/myqarage.myq.pot.dir/cmake_clean.cmake
 .PHONY : po/CMakeFiles/myqarage.myq.pot.dir/clean
 
 po/CMakeFiles/myqarage.myq.pot.dir/depend:
-	cd /home/martin/Downloads/myqarage-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/martin/Downloads/myqarage-master /home/martin/Downloads/myqarage-master/po /home/martin/Downloads/myqarage-master/build /home/martin/Downloads/myqarage-master/build/po /home/martin/Downloads/myqarage-master/build/po/CMakeFiles/myqarage.myq.pot.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/martin/Media/Documents/UbuntuTouch/myqarage-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/martin/Media/Documents/UbuntuTouch/myqarage-master /media/martin/Media/Documents/UbuntuTouch/myqarage-master/po /media/martin/Media/Documents/UbuntuTouch/myqarage-master/build /media/martin/Media/Documents/UbuntuTouch/myqarage-master/build/po /media/martin/Media/Documents/UbuntuTouch/myqarage-master/build/po/CMakeFiles/myqarage.myq.pot.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : po/CMakeFiles/myqarage.myq.pot.dir/depend
 

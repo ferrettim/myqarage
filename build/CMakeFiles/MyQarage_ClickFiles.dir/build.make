@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/martin/Downloads/myqarage-master
+CMAKE_SOURCE_DIR = /media/martin/Media/Documents/UbuntuTouch/myqarage-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/martin/Downloads/myqarage-master/build
+CMAKE_BINARY_DIR = /media/martin/Media/Documents/UbuntuTouch/myqarage-master/build
 
 # Utility rule file for MyQarage_ClickFiles.
 
@@ -67,6 +67,6 @@ CMakeFiles/MyQarage_ClickFiles.dir/clean:
 .PHONY : CMakeFiles/MyQarage_ClickFiles.dir/clean
 
 CMakeFiles/MyQarage_ClickFiles.dir/depend:
-	cd /home/martin/Downloads/myqarage-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/martin/Downloads/myqarage-master /home/martin/Downloads/myqarage-master /home/martin/Downloads/myqarage-master/build /home/martin/Downloads/myqarage-master/build /home/martin/Downloads/myqarage-master/build/CMakeFiles/MyQarage_ClickFiles.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/martin/Media/Documents/UbuntuTouch/myqarage-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/martin/Media/Documents/UbuntuTouch/myqarage-master /media/martin/Media/Documents/UbuntuTouch/myqarage-master /media/martin/Media/Documents/UbuntuTouch/myqarage-master/build /media/martin/Media/Documents/UbuntuTouch/myqarage-master/build /media/martin/Media/Documents/UbuntuTouch/myqarage-master/build/CMakeFiles/MyQarage_ClickFiles.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/MyQarage_ClickFiles.dir/depend
 

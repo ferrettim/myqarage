@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/martin/Downloads/myqarage-master
+CMAKE_SOURCE_DIR = /media/martin/Media/Documents/UbuntuTouch/myqarage-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/martin/Downloads/myqarage-master/build
+CMAKE_BINARY_DIR = /media/martin/Media/Documents/UbuntuTouch/myqarage-master/build
 
 # Utility rule file for myqarage.desktop.
 
@@ -54,9 +54,9 @@ CMAKE_BINARY_DIR = /home/martin/Downloads/myqarage-master/build
 include CMakeFiles/myqarage.desktop.dir/progress.make
 
 CMakeFiles/myqarage.desktop:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/martin/Downloads/myqarage-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Merging translations into myqarage.desktop..."
-	LC_ALL=C /usr/bin/intltool-merge -d -u /home/martin/Downloads/myqarage-master/po /home/martin/Downloads/myqarage-master/myqarage.desktop.in myqarage.desktop
-	sed -i 's/myqarage-//g' /home/martin/Downloads/myqarage-master/build/myqarage.desktop
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/media/martin/Media/Documents/UbuntuTouch/myqarage-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Merging translations into myqarage.desktop..."
+	LC_ALL=C /usr/bin/intltool-merge -d -u /media/martin/Media/Documents/UbuntuTouch/myqarage-master/po /media/martin/Media/Documents/UbuntuTouch/myqarage-master/myqarage.desktop.in myqarage.desktop
+	sed -i 's/myqarage-//g' /media/martin/Media/Documents/UbuntuTouch/myqarage-master/build/myqarage.desktop
 
 myqarage.desktop: CMakeFiles/myqarage.desktop
 myqarage.desktop: CMakeFiles/myqarage.desktop.dir/build.make
@@ -73,6 +73,6 @@ CMakeFiles/myqarage.desktop.dir/clean:
 .PHONY : CMakeFiles/myqarage.desktop.dir/clean
 
 CMakeFiles/myqarage.desktop.dir/depend:
-	cd /home/martin/Downloads/myqarage-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/martin/Downloads/myqarage-master /home/martin/Downloads/myqarage-master /home/martin/Downloads/myqarage-master/build /home/martin/Downloads/myqarage-master/build /home/martin/Downloads/myqarage-master/build/CMakeFiles/myqarage.desktop.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/martin/Media/Documents/UbuntuTouch/myqarage-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/martin/Media/Documents/UbuntuTouch/myqarage-master /media/martin/Media/Documents/UbuntuTouch/myqarage-master /media/martin/Media/Documents/UbuntuTouch/myqarage-master/build /media/martin/Media/Documents/UbuntuTouch/myqarage-master/build /media/martin/Media/Documents/UbuntuTouch/myqarage-master/build/CMakeFiles/myqarage.desktop.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/myqarage.desktop.dir/depend
 

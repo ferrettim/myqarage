@@ -94,8 +94,8 @@ msgid "Cancel"
 msgstr "Cancelar"
 
 #: ../qml/AboutPage.qml:8
-msgid "About MyQarage v1.0"
-msgstr "Acerca de MyQarage v1.0"
+msgid "About MyQarage v1.1"
+msgstr "Acerca de MyQarage v1.1"
 
 #: ../qml/AboutPage.qml:9
 msgid "MyQarage is an app to control your garage door if you are using a Chamberlain MyQ or compatible system on Ubuntu Touch."

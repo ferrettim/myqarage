@@ -67,7 +67,7 @@ MainView {
                 margins: units.gu(0)
                 bottomMargin: units.gu(6)
             }
-                zoomFactor: 2.5
+                zoomFactor: 2.0
                 url: "https://www.mychamberlain.com/"
 
                 userScripts: [
