@@ -4,4 +4,5 @@
 <br>
 MyQarage is an app to control your garage door if you are using a Chamberlain MyQ or compatible system on Ubuntu Touch. It is in no way affiliated with Chamberlain in any way. Huge thanks to advocatux for the Spanish translation.
 <br>
+<br>
 Source code for this project is based on Tweet by Rudi Timmermans.
