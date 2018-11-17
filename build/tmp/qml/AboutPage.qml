@@ -5,8 +5,8 @@ import Ubuntu.Components.Popups 1.3
 Dialog {
             id: aboutDialog
             visible: false
-            title: i18n.tr("About MyQarage 1.0")
-            text: i18n.tr("MyQarage is an app to control your garage door if you are using a Chamberlin MyQ or compatible system on Ubuntu Touch.")
+            title: i18n.tr("About MyQarage 1.1")
+            text: i18n.tr("MyQarage is an app to control your garage door if you are using a Chamberlain MyQ or compatible system on Ubuntu Touch.")
 
             Text {
                 wrapMode: Text.WrapAtWordBoundaryOrAnywhere
@@ -16,11 +16,6 @@ Dialog {
             Text {
                 wrapMode: Text.WrapAtWordBoundaryOrAnywhere
                 text: i18n.tr('MyQarage is not affiliated with Chamberlain.')
-            }
-
-            Button {
-                text: i18n.tr('Donate')
-                onClicked: Qt.openUrlExternally('')
             }
 
             Button {

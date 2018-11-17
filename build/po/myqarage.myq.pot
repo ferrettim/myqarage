@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Rudi Timmermans
+# Copyright (C) YEAR Martin Ferretti
 # This file is distributed under the same license as the MyQarage package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MyQarage\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-16 22:07+0000\n"
+"POT-Creation-Date: 2018-11-16 22:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,13 +18,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../qml/AboutPage.qml:8
-msgid "About MyQarage 1.0"
+msgid "About MyQarage 1.1"
 msgstr ""
 
 #: ../qml/AboutPage.qml:9
 msgid ""
-"MyQarage is an app to control your garage door if you are using a Chamberlin "
-"MyQ or compatible system on Ubuntu Touch."
+"MyQarage is an app to control your garage door if you are using a "
+"Chamberlain MyQ or compatible system on Ubuntu Touch."
 msgstr ""
 
 #: ../qml/AboutPage.qml:13
@@ -38,10 +38,6 @@ msgid "MyQarage is not affiliated with Chamberlain."
 msgstr ""
 
 #: ../qml/AboutPage.qml:22
-msgid "Donate"
-msgstr ""
-
-#: ../qml/AboutPage.qml:27
 msgid "OK"
 msgstr ""
 
