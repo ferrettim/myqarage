@@ -5,7 +5,7 @@ import Ubuntu.Components.Popups 1.3
 Dialog {
             id: aboutDialog
             visible: false
-            title: i18n.tr("About MyQarage 1.1")
+            title: i18n.tr("About MyQarage 1.2")
             text: i18n.tr("MyQarage is an app to control your garage door if you are using a Chamberlain MyQ or compatible system on Ubuntu Touch.")
 
             Text {
